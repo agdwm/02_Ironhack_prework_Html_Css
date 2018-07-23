@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i');
+
+/* GENERAL STYLES */
+/* =================================================================================== */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+.col {
+	float: left;
+}
+
+.col-2 {
+	width: 48%;
+}
+
+.col-middle {
+	margin: 0 1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	height: auto;
+	display: block;
+	max-width: 100%;
+}
+
+p {
+	color: #FFF;
+}
+
+.btn {
+	color: #FFF;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	font-size: 1.125rem;
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* HEADINGS */
+/* =================================================================================== */
+h1 {
+	position: absolute;
+    height: 1px;
+    width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
+
+h2 {
+	font-size: 3rem;
+	color: rgb(244,244,244);
+	font-weight: 300;
+	padding: 1rem 0;
+	margin: .67em 0;
+}
+
+h3{
+	font-size: 2.25rem;
+	color: #FFF;
+	font-weight: 300;
+	margin-bottom: 0.83em;
+}
+
+h4 {
+	font-size: 1.25rem;
+	font-weight: 300;
+	padding-top: 1rem;
+	padding-bottom: 1rem;	
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+
+/* NAVEGATION */
+/* =================================================================================== */
+.nav-bar {
+	background-color: rgb(193,33,39);
+	color: rgba(255,255,255,0.8);
+	padding: 1rem 0.625rem;
+	overflow: hidden;
+}
+
+.nav-bar a {
+	color: rgba(255,255,255,0.8);
+  	text-decoration: none;
+}
+
+.top-left {
+	float: left;
+}
+
+.top-links {
+	float: right;
+	padding: 0;
+	margin: 0 1.25rem 0 0;
+}
+
+.top-links li {
+	display: inline-block;
+	margin: 0 0.625rem;
+}
+
+/* HEADER - Top */
+/* =================================================================================== */
+.header {
+	background: rgb(32, 101, 136) url(images/city-scape.svg) no-repeat top;
+	color: #FFF;
+	background-size: cover;
+	height: 600px;
+}
+
+.subheader {
+	height: 50px;
+	padding: 0.3125rem 0.625rem;	
+}
+
+.npm-logo {
+	width: 130px;
+}
+
+.search {
+	width: calc(98% - 310px);
+	position: relative;
+	height: 50px;
+}
+
+.search-box {
+	width: 100%;
+	height: 100%;
+	background: rgb(31, 82, 111);
+	font-size: 1rem;
+	padding: 0.625rem;
+	box-sizing: border-box;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.search-icon  {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 0;
+	right: 0;
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.search-icon .icon {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	display: block;
+}
+
+.register {
+	width: 180px;
+}
+
+.register a, .register span, .register .bear-logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.register a, .register span {
+	color: #FFF;
+}
+
+.register a {
+	padding: 0 0.3125rem;
+}
+
+.bear-logo {
+	height: 50px;
+	display: inline-block;
+}
+
+/* HEADER - Content */
+/* =================================================================================== */
+.hero {
+	padding: 4rem;
+}
+
+.hero-text {
+	font-size: 1.25rem;
+	line-height: 1.5;
+	color: rgb(244,244,244);
+}
+
+.btn-sign {
+	background-color: rgb(240,146,51);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	transition: background-color 300ms ease-out;
+}
+
+.btn-sign:hover {
+	background-color: rgb(233,126,17);
+}
+
+/* SECTION 1 */
+/* =================================================================================== */
+#powerfull-collaboration {
+	padding: 8rem 0 4rem 0;
+	background-color: rgb(39, 53, 71);
+}
+
+#powerfull-collaboration .img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.powerfull-content {
+	padding-left: 4rem;
+	width: calc(50% - 4rem);
+}
+
+.text-list {
+	font-weight: 300;
+	line-height: 1.5;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1.5rem;
+}
+
+.text-list li {
+	font-size: 1.25rem;
+	padding: .5rem 0;
+	color: #FFF;
+}
+
+.btn-sign-orgs {
+	background-color: rgb(203,56,55);
+}
+
+.link-sign-orgs {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #FFF;
+	font-weight: 300;
+}
+
+.link-sign-orgs a {
+	font-weight: 600;
+	color: #FFF;
+}
+
+.link-sign-orgs a:hover {
+	text-decoration: underline;
+}
+
+/* SECTION 2 */
+/* =================================================================================== */
+#whats-npm {
+	background: url(images/forklift.svg) no-repeat top;
+	background-size: cover;
+	height: 500px;
+	padding-top: 8rem 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.whats-npm-info {
+	position: absolute;
+	left: 0;
+	width: 40%;
+}
+
+#whats-npm p {
+	line-height: 1.5;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.btn-install {
+	float: left;
+	background-color: rgb(49, 68, 88);
+}
+
+/* SECTION 3 */
+/* =================================================================================== */
+#building-blocks {
+	padding: 3rem 0;
+}
+
+.building-head {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto 3rem auto
+}
+
+.building-head h3 {
+	color: rgb(83, 88, 98);
+}
+.building-head p {
+	color: rgb(135, 145, 156);
+}
+
+.building-content p {
+	color: rgb(51, 51, 51);
+	padding-left: 2rem;
+    padding-right: 2rem;
+} 
+
+.building-content a {
+	color: rgb(208, 74, 73);
+	font-weight: 600;
+}
+
+.building-block {
+	width: 33%;
+	text-align: center; 
+	float: left;
+	padding: 2rem .5rem;
+	box-sizing: border-box;
+}
+
+.building-block .img-block {
+	width: 122px;
+	height: 122px;
+	display: inline-block;
+}
